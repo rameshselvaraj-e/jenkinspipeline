@@ -6,12 +6,12 @@ pipeline {
         echo 'Hello World'
       }
     }
-    stage {'Build') {
+    stage('Build') {
       steps {
         echo 'Building'
       }
     }
-    stage {'Deploy') {
+    stage('Deploy') {
       steps {
         echo 'Deploying'
       }
